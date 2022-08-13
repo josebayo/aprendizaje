@@ -1,3 +1,3 @@
 console.log("Hola Mundo");
-console.log("adios")
+console.log("adios");
 document.write("Hola Mundo");
