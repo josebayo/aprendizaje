@@ -40,28 +40,28 @@ console.log(N3);
 // fourteenth global variable
 const N4 = 4;
 console.log(N4);
-// fiveteenth global variable
+// fifteenth global variable
 const N5 = 5;
 console.log(N5);
 // sixteenth global variable
 const N6 = 6;
 console.log(N6);
-// seventh global variable
+// seventeenth global variable
 const N7 = 7;
 console.log(N7);
 // eighteenth global variable
 const N8 = 8;
 console.log(N8);
-// nineteenth global variable
+// nineteenthv global variable
 const N9 = 9;
 console.log(N9);
-// twenty global variable
+// twentieth global variable
 const N10 = 10;
 console.log(N10);
-// twenty-one global variable
+// twenty-first global variable
 const D1 = 34.45;
 console.log(D1);
-// twenty-two global variable
+// twenty-second global variable
 const D2 = 32.25;
 console.log(D2);
 // twenty-third global variable
@@ -91,7 +91,7 @@ console.log(D10);
 // thirty-first global variable
 const ON1 = new Number (23);
 console.log(ON1);
-// thirty-two global variable
+// thirty-second global variable
 const ON2 = new Number (24);
 console.log(ON2);
 // thirty-third global variable
@@ -118,3 +118,33 @@ console.log(ON9);
 // fortieth global variable
 const ON10 = new Number (3225);
 console.log(ON10);
+// forty-first global variable
+const OD1 = new Number (21.3);
+console.log(OD1);
+// forty-second global variable
+const OD2 = new Number (22.34);
+console.log(OD2);
+// forty-third global variable
+const OD3 = new Number (25.23);
+console.log(OD3);
+// forty-fourth global variable
+const OD4 = new Number (3.24);
+console.log(OD4);
+// forty-fifth global variable
+const OD5 = new Number (12.5);
+console.log(OD5);
+// forty-sixth global variable
+const OD6 = new Number (23.54);
+console.log(OD6);
+// fortieth-seventh global variable
+const OD7 = new Number (21.55);
+console.log(OD7);
+// forty-eighth global variable
+const OD8 = new Number (32.53);
+console.log(OD8);
+// forty-ninth global variable
+const OD9 = new Number (22.95);
+console.log(OD9);
+// fiftieth global variable
+const OD10 = new Number (32.25);
+console.log(OD10);
