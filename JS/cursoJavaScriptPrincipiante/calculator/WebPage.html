@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+</head>
+
+<body onload="execution()">
+
+<!--
+EXERCISE INSTRUCTIONS:
+Create a script that displays a menu on the screen (use console.log());
+
+    Press 1 to add
+    Press 2 to subtract
+    Press 3 to multiply
+    Press 4 to split
+    Press 5 to exit
+
+Depending on the option selected, it will carry out the operation and if you press option 6, 
+with the confirm button, ask if you are sure to exit, if yes, it will close the window, if not, 
+an option from the menu will be chosen again.
+-->
+
+    <h1>Basic calculator</h1>
+
+    <h2>Functioning of the calculator</h2>
+
+    <ul>
+        <li>Press 1 to add</li>
+        <li>Press 2 to subtract</li>
+        <li>Press 3 to multiply</li>
+        <li>Press 4 to split</li>
+        <li>Press 5 to exit</li>
+    </ul>
+    <p>
+        Depending on the selected option, it will carry out the operation and if you press 
+        option 6, with the confirm button, ask if you are sure to exit, if it is, if it will 
+        close the window, if not, an option from the menu will be chosen again.
+    </p>
+
+    <div id="entry1" style="color:yellow;font-size:1.6em"></div>
+    <div id="entry2" style="color:deeppink;font-size:1.6em"></div>
+
+    <form style="margin: auto;text-align: center">
+        <input type="button" value="Operation" onclick="operation()" />
+    </form>
+
+    <div id="result" style="color:magenta;font-size:1.6em;margin:auto;text-align:center;">
+        Press to perform an operation
+    </div>
+
+    <script src="Script.js"></script>
+</body>
+
+</html>
