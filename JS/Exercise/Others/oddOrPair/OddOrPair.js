@@ -1,6 +1,6 @@
-
+function execution() {
     // Enter number
-    var x = window.prompt('Enter the number to check');
+    var x = Number(prompt('Enter the number to check'));
 
     // Check if a correct value has been entered
     if (isNaN(x)) {
@@ -12,3 +12,5 @@
             alert('The number ' + x + ' is odd');
         }
     }
+}
+    
