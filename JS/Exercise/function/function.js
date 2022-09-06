@@ -9,7 +9,7 @@ var colourCar = "White";
 myCars(brandCar, modelCar, colourCar);
 
 
-/*
+// Funtion add
 function add(a,b,c) {
     return a+b+c;
 }
@@ -17,4 +17,3 @@ function add(a,b,c) {
 var result = add(1,2,3);
 
 console.log(result)
-*/
