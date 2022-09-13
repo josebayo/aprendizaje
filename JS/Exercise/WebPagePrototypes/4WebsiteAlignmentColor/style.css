@@ -1,0 +1,17 @@
+#h1 {
+    text-align: center;
+}
+
+#img1 {
+    display: flex;
+    justify-content: center;
+}
+
+#p1 {
+    text-align: right;
+}
+
+#p2 {
+    text-decoration: underline;
+    text-decoration-color: lawngreen;
+}
