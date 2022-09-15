@@ -1,0 +1,69 @@
+body {
+    background-color: black;
+}
+
+header {
+    background-color: aqua;
+}
+
+footer {
+    background-color: blueviolet;
+}
+
+#h1 {
+    text-align: center;
+    font-size: 400%;
+    color: red;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+#cabecera {
+    display: flex;
+    justify-content: space-around;
+}
+
+#img1 {
+    display: flex;
+    justify-content: center;
+}
+
+#img2 {
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+#img3 {
+    width: 150px;
+    height: 150px;
+    float: right;
+}
+
+#text1 {
+    color: aliceblue;
+    position: absolute;
+}
+
+#p2 {
+    font-size: 150%;
+    color: blue;
+}
+
+#p3 {
+    font-size: 150%;
+    color: blue;
+}
+
+#p1 {
+    text-align: right;
+    font-size: 100%;
+    color: darkgreen;
+}
+
+#vid1 {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
