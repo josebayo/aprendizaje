@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,6 +21,12 @@
         </figure>
     </header>
 
+    <nav id="menu">
+        <li class="list"><a href="#">Home</a></li>
+        <li class="list"><a href="#">About</a></li>
+        <li class="list"><a href="#">Contacts</a></li>
+    </nav>
+
     <section>
         <p id="p2">Welcome friends.</p>
         <p id="p3">This is my first web page.</p>
@@ -31,12 +38,33 @@
             <video controls>
                 <source src="ElSolVideosEducativosParaNiños.mp4" type="video/mp4">
             </video>
-        </figure>
-    </section> 
-    
+        </figure id="url1">
+        <object data="https://www.youtube.com/embed/TKPgUhmMzW4" width="800" height="800" type="text/html">
+        </object>
+
+    </section>
+
     <footer>
+        <form id="form1" action="/my-handling-form-page" method="post">
+            <ul>
+                <li>
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="user_name">
+                </li>
+                <li>
+                    <label for="mail">Correo electrónico:</label>
+                    <input type="email" id="mail" name="user_mail">
+                </li>
+                <li>
+                    <label for="msg">Mensaje:</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                </li>
+            </ul>
+            <input type="submit" value="Entrar" id="input"> 
+        </form>
         <p id="p1">Author: Jhon Wilder</p>
     </footer>
-
+    <script src="FormularioValida.js"></script>
 </body>
+
 </html>
